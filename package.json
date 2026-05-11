@@ -1,4 +1,16 @@
-{
+1afef9e9-2895-460a-991c-ad055e6f87a9{
+  "expo": {
+    "name": "EasyEditor",
+    "slug": "EasyEditor", 
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "extra": {
+      "eas": {
+        "projectId": "COLLE-TON-ID-ICI"
+      }
+    }
+  }{
   "name": "easyeditor",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
