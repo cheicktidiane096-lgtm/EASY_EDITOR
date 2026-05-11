@@ -1,4 +1,17 @@
-npm install --global eas-cli && npx create-expo-app easyeditor- && cd easyeditor- && eas init --id 1afef9e9-2895-460a-991c-ad055e6f87a9import React, { useState } from 'react';
+{
+  "expo": {
+    "name": "EasyEditor",
+    "slug": "EasyEditor", 
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "extra": {
+      "eas": {
+        "projectId": "COLLE-TON-ID-ICI"
+      }
+    }
+  }
+}npm install --global eas-cli && npx create-expo-app easyeditor- && cd easyeditor- && eas init --id 1afef9e9-2895-460a-991c-ad055e6f87a9import React, { useState } from 'react';
 import { StyleSheet, View, Text, Image, TouchableOpacity, TextInput, Alert } from 'react-native';
 import * as ImagePicker from 'expo-image-picker';
 import * as MediaLibrary from 'expo-media-library';
